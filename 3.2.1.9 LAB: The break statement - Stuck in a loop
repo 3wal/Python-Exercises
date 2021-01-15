@@ -1,0 +1,16 @@
+#userInput= input("Enter a word:")
+#while userInput != "chupacabra" :
+#    continue
+print ("Enter a word:")
+userInput = input()
+
+while True:
+    
+    if userInput == "chupacabra":
+        print ("You've successfully left the loop.")
+        break
+    
+    else:
+        userInput != "chupacabra"
+        print ("Enter a word:")
+        userInput = input()
