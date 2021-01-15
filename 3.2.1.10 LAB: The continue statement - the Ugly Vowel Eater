@@ -7,12 +7,13 @@ for letter in user_word:
     # Complete the body of the for loop.
     if letter == "A":
         continue
-    if letter == "E":
+    elif letter == "E":
         continue
-    if letter == "I":
+    elif letter == "I":
         continue
-    if letter == "O":
+    elif letter == "O":
         continue
-    if letter == "U":
+    elif letter == "U":
         continue
-    print (letter)
+    else:
+        print (letter)
