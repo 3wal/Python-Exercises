@@ -1,0 +1,32 @@
+def liters_100km_to_miles_gallon(liters):
+    g = (liters) / oneG
+    #print (g)
+    m = 100000 / oneM
+    #print (m)
+    return m / g
+    #mg = m / g
+    #print (mg)
+
+
+def miles_gallon_to_liters_100km(miles):
+    k = (miles) * oneM / 1000 / 100
+    l = oneG
+    return (l / k)
+   
+
+
+oneG = float(3.785411784)
+#print ("One Gallonn is: ", oneG, "Liters")
+oneL = float(0.264172052)
+#print ("One Liter is: ", oneL, "Gallon")
+oneM = float(1609.344)
+#print ("One Mile is: ", oneM, "Meters")
+oneK = float(0.621)
+#print ("One Kilometer is: ", oneK, "Miles")
+
+print(liters_100km_to_miles_gallon(3.9))
+print(liters_100km_to_miles_gallon(7.5))
+print(liters_100km_to_miles_gallon(10.))
+print(miles_gallon_to_liters_100km(60.3))
+print(miles_gallon_to_liters_100km(31.4))
+print(miles_gallon_to_liters_100km(23.5))
